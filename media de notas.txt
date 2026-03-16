@@ -1,5 +1,5 @@
 inicio
     VALOR 1 --nota 1
     VALOR 2 --nota 2
-    SOMA VALOR 1 + VALOR 2 E DIVIDE POR 2
+    (VALOR 1 + VALOR 2)/2
 fim
