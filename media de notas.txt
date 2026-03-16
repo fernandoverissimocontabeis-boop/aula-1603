@@ -3,3 +3,12 @@ inicio
     VALOR 2 --nota 2
     (VALOR 1 + VALOR 2)/2
 fim
+
+correção:
+
+início
+  nota1 ← leia "Digite a primeira nota:"
+  nota2 ← leia "Digite a segunda nota:"
+  media ← (nota1 + nota2) / 2
+  escreva "A média é:", media
+fim
