@@ -8,3 +8,17 @@ Inicio
     escreva "Parabéns, volte ano que vem"
    fim-se
 fim
+
+// Entrada de dados
+let nota1 = parseFloat(prompt("Digite a 1ª nota do aluno:"));
+let nota2 = parseFloat(prompt("Digite a 2ª nota do aluno:"));
+
+// Cálculo da média
+let media = (nota1 + nota2) / 2;
+
+// Estrutura de decisão
+if (media >= 7) {
+    alert("Parabéns, aprovado");
+} else {
+    alert("Parabéns, volte ano que vem");
+}
